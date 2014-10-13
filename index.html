@@ -1,0 +1,2053 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>English Subject (Philippine Literature)</title>
+	<link rel="stylesheet" href="themes/mobiletheme.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="js/jquery.mobile.structure-1.4.3.min.css" />
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jquery.mobile-1.4.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery_validate.js"></script>
+	
+	<script src="js/jquery-1.8.0.min.js"></script>
+	<script type="text/javascript" src="../source/scripts/js.js"></script>
+	<script type="text/javascript" src="../source/scripts/ui.js"></script>
+	<script src="jquery-1.4.4.min.js" type="text/javascript"></script>
+	
+		<style>
+div.ex {
+    width: 93%;
+    padding: 15;
+    border: 5px solid white;
+    margin: auto;
+}
+#forImage{
+width: 93%;
+    padding: 15;
+	border: 5px solid white;
+    margin: auto;
+	height:120px;
+}
+#togglethis{
+width: 93%;
+    padding: 15;
+	border: 5px solid white;
+    margin: auto;
+	height:120%;
+}
+
+#btnPlay,#logout,#leaderBoard,#	help{
+width: 90%;
+    padding: 15;
+	border: 5px solid #08387c;
+	background-color:#08387c;
+    margin: auto;
+	height:50px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 40px;
+}
+
+#btnStartAnimals{
+width: 90%;
+    padding: 15;
+	border: 5px solid #bd0613;
+	background-color:#bd0613;
+    margin: auto;
+	height:120%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#homeBg{
+	position:fixed;
+	height:120%;
+	width:120%;
+	background-image:url(css/bg.png);
+	background-position: top center;
+	background-size: cover;
+}
+#result,#gameBg,#bgScores{
+	position:fixed;
+	height:120%;
+	width:120%;
+	background-image:url(css/bg.png);
+	background-position: top center;
+	background-size: cover;
+	
+}
+
+#relative,#relative2,#relative3 {
+    position: relative;
+    top: 15;
+	color:#329aeb;
+}
+
+
+	</style>
+	
+	</head>
+	<body>
+	
+<!--MAIN PAGE-->
+<div data-role="page" id="index" data-theme="d" data-position="fixed" style="background-image:url('images/bg.jpg'); background-size:cover; background-repeat:no-repeat;">
+<div data-role="header" data-theme="a" align="center" data-position="fixed" style="height:15%;">
+ <img src="images/header.png" height="120%" width="95%">
+</div>
+ <div data-role="content" align="center" >
+	<!-- <img src="images/cap.png" height="50%" width="90%"> -->
+	
+		<div style="margin: 5px; width:89%;height:80%; font-family:Century; font-size: 18px; color:#000000">
+	<center><h5>What is a<h1>PHILIPPINE LITERATURE?</h1></h5></center> 
+	
+	</div>
+	
+	<div style="margin: 20px; width:89%;height:80%;">
+	<center><img src="images/scope.png" height="120%" width="90%" /></center> 
+	</div>
+	
+	<div style="margin: 20px; width:89%;height:80%; font-family:Century; font-size: 15">
+	<p align="justify">Philippine literature is the literature associated with the Philippines and includes the legends of prehistory, 
+	and the colonial legacy of the Philippines. 
+	</p>
+	</div>
+	
+	<div style="margin: 20px; width:89%;height:80%;">
+	<center><img src="images/importance.png" height="120%" width="90%" /></center> 
+	</div>
+	
+	<div style="margin: 20px; width:89%;height:80%; font-family:Century; font-size: 15">
+	<p align="justify">Literature is a tool to record historical events as well as knowledge. It's also quite capable at bringing people together. </p>
+	<p align="justify">The understanding of literature is a form of power in historical and modern societies. </p>
+	</div>
+ </div>
+ 
+<div style=" margin: 5%; width: 90%; height: 90%">
+	<a href="#menu" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-grid ui-btn-a ui-mini">MENU</a>
+	<a href="#game" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-heart ui-btn-a ui-mini">GAME</a>
+	
+
+</div>
+</div>
+
+
+
+<!--MENU-->
+<div data-role="page" id="menu" data-theme="d" data-position="fixed" style="background-image:url('images/bg.jpg'); background-size:cover; background-repeat:no-repeat;" >
+<div data-role="header" data-theme="a"  align="center" data-position="fixed" style="height:15%;">
+ <img src="images/header.png" height="120%" width="90%" />
+</div>
+
+<div style="margin: 20px; width:89%;height:80%; font-family:Century; font-size: 18px; color:#000000">
+	<center><h3>TOPIC</h3></center> 
+	</div>
+	
+	<div style=" margin: 5%; width: 90%; height: 90%">
+		<a href="#poetry" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-info ui-btn-a ui-mini">POETRY</a>
+		<a href="#shortstory" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-info ui-btn-a ui-mini">SHORT STORY</a>
+		<a href="#essay" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-info ui-btn-a ui-mini">ESSAY</a>
+		<a href="#novel" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-info ui-btn-a ui-mini">NOVEL</a>
+		<a href="#drama" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-info ui-btn-a ui-mini">DRAMA</a>
+	
+	</div>
+	
+	<br/>
+	<div style=" margin: 5%; width: 90%; height: 90%">
+	<a href="#index" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-back ui-btn-a ui-mini">BACK</a>
+	</div>
+	
+</div>
+
+<!--POETRY-->
+<div data-role="page" id="poetry" data-theme="d" data-position="fixed" style="background-image:url('images/bg.jpg'); background-size:cover; background-repeat:no-repeat;">
+<div data-role="header" data-theme="a"  align="center" data-position="relative" style="height:15%;">
+ <img src="images/header.png" height="120%" width="90%" />
+</div>
+	<div data-role="content">
+	</div>
+	<div style="margin: 20px; width:89%;height:80%; font-family:Century; font-size: 15;">
+	<center><h3>POETRY</h3></center> 
+	<p align="justify">Poetry is a form of literature that uses aesthetic and rhythmic.</p>
+	<p align="justify">Qualities of language such as phonaesthetics, sound symbolism, and metre. </p>
+	<center><h3>Philippine Poet</h3></center> 
+	<p align="justify">"Francisco Baltazar y dela Cruz"</p>
+	<p align="justify">"Roberto T. Anonuevo"</p>
+	<p align="justify">"Antonio Abad"</p>
+	<p align="justify">"Francisco Arcellana"</p>
+	<p align="justify">"Leona Florentino"</p>
+	
+	
+	</div>
+	<br/>
+	<br/>
+	<br/>
+	<div style=" margin: 5%; width: 90%; height: 90%">
+		<a href="#language" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-info ui-btn-a ui-mini">LANGUAGE OF POETRY</a>
+	
+	</div>
+	
+	<div style=" margin: 5%; width: 90%; height: 90%">
+	<a href="#menu" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-back ui-btn-a ui-mini">BACK</a>
+	</div>
+	
+
+</div>
+
+<!--SHORT STORY-->
+<div data-role="page" id="shortstory" data-theme="d" data-position="fixed" style="background-image:url('images/bg.jpg'); background-size:cover; background-repeat:no-repeat;">
+<div data-role="header" data-theme="a"  align="center" data-position="relative" style="height:15%;">
+ <img src="images/header.png" height="120%" width="90%" />
+</div>
+
+	<div style="margin: 20px; width:89%;height:80%; font-family:Century; font-size: 15">
+	<center><h3>SHORT STORY</h3></center> 
+	<p align="justify">Short story is a brief work of literature, usually written in narrative prose.</p>
+	<p align="justify">The short story has grown to encompass a body of work so diverse as to defy easy characterization.  </p>
+	<center><h3>Philippine Short Story Writters</h3></center> 
+	<p align="justify">"Efren Abueg"</p>
+	<p align="justify">"Roy V. Aragon"</p>
+	<p align="justify">"Francisco Arcellana"</p>
+	<p align="justify">"Liwayway Arceo"</p>
+	
+	</div>
+
+	<div style=" margin: 5%; width: 90%; height: 90%">
+		<a href="#elements" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-info ui-btn-a ui-mini">ELEMENTS OF SHORT STORY</a>
+		<a href="#kinds" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-info ui-btn-a ui-mini">TYPES OF SHORT STORY</a>
+	</div>
+	
+		<div style=" margin: 5%; width: 90%; height: 90%">
+	<a href="#menu" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-back ui-btn-a ui-mini">BACK</a>
+	</div>
+</div>
+
+<!--ESSAY-->
+<div data-role="page" id="essay" data-theme="d" data-position="fixed" style="background-image:url('images/bg.jpg'); background-size:cover; background-repeat:no-repeat;" >
+<div data-role="header" data-theme="a"  align="center" data-position="fixed" style="height:15%;">
+ <img src="images/header.png" height="120%" width="90%" />
+</div>
+
+	<div style="margin: 20px; width:89%;height:80%; font-family:Century; font-size: 15">
+	<center><h3>ESSAY</h3></center> 
+	<p align="justify">Essays are generally scholarly pieces of writing written from an author's personal point of view, but the definition is vague, overlapping with those of anarticle, a pamphlet and a short story.</p>
+	<p align="justify">Essays can consist of a number of elements, including: literary criticism, political manifestos, learned arguments, observations of daily life, recollections, and reflections of the author.  </p>
+	</div>
+	
+	<div style=" margin: 5%; width: 90%; height: 90%">
+		<a href="#formandkindsofessay" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-info ui-btn-a ui-mini">FORM AND KINDS OF ESSAY</a>
+	</div>
+	
+		<div style=" margin: 5%; width: 90%; height: 90%">
+	<a href="#menu" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-back ui-btn-a ui-mini">BACK</a>
+	</div>
+</div>
+
+<!--NOVEL-->
+<div data-role="page" id="novel" data-theme="d" data-position="fixed" style="background-image:url('images/bg.jpg'); background-size:cover; background-repeat:no-repeat;" >
+<div data-role="header" data-theme="a"  align="center" data-position="fixed" style="height:15%;">
+ <img src="images/header.png" height="120%" width="90%" />
+</div>
+	
+	<div style="margin: 20px; width:89%;height:80%; font-family:Century; font-size: 15">
+	<center><h3>NOVEL</h3></center> 
+	<p align="justify">A novel is a long narrative, normally in prose, which describes fictional characters and events, usually in the form of a sequential story.</p>
+	<center><h3>Philippine Novelist</h3></center> 
+	<p align="justify">"Jose Rizal"</p>
+	<p align="justify">"Antonio Abad"</p>
+	<p align="justify">"Faustino Aguilar"</p>
+	<p align="justify">"Isabelo de los Reyes"</p>
+	
+	</div>
+
+	<div style=" margin: 5%; width: 90%; height: 90%">
+		<a href="#formandkindsofnovel" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-info ui-btn-a ui-mini">FORM AND KINDS OF NOVEL</a>
+		<a href="#schoolofthought" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-info ui-btn-a ui-mini">SCHOOL OF THOUGHT</a>
+		<a href="#noli" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-info ui-btn-a ui-mini">SUMMARY OF NOLI ME TANGERE</a>
+		<a href="#fili" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-info ui-btn-a ui-mini">SUMMARY OF EL FILIBUSTERISMO</a>
+	</div>
+	
+		<div style=" margin: 5%; width: 90%; height: 90%">
+	<a href="#menu" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-back ui-btn-a ui-mini">BACK</a>
+	</div>
+</div>
+
+<!--DRAMA-->
+<div data-role="page" id="drama" data-theme="d" data-position="fixed" style="background-image:url('images/bg.jpg'); background-size:cover; background-repeat:no-repeat;" >
+<div data-role="header" data-theme="a"  align="center" data-position="fixed" style="height:15%;">
+ <img src="images/header.png" height="120%" width="90%" />
+</div>
+
+	
+	<div style="margin: 20px; width:89%;height:80%; font-family:Century; font-size: 15">
+	<center><h3>DRAMA</h3></center> 
+	<p align="justify">Drama is the specific mode of fiction represented in performance.</p>
+	<p align="justify">The term comes from a Greek word meaning "action", which is derived from the verb meaning "to do" or "to act". </p>
+	</div>
+	
+	<div style=" margin: 5%; width: 90%; height: 90%">
+		<a href="#elementsofdrama" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-info ui-btn-a ui-mini">ELEMENTS OF DRAMA</a>
+		<a href="#kindsandtypesofdrama" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-info ui-btn-a ui-mini">KINDS AND TYPES OF PHILIPPINE DRAMA</a>
+	</div>
+	
+		<div style=" margin: 5%; width: 90%; height: 90%">
+	<a href="#menu" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-back ui-btn-a ui-mini">BACK</a>
+	</div>
+</div>
+
+<!-- (POETRY)LANGUAGE-->
+<div data-role="page" id="language" data-theme="d" data-position="fixed" style="background-image:url('images/bg.jpg'); background-size:cover; background-repeat:no-repeat;">
+<div data-role="header" data-theme="a"  align="center" data-position="relative" style="height:15%;">
+ <img src="images/header.png" height="120%" width="90%" />
+</div>
+
+	<div style="margin: 20px; width:89%;height:80%; font-family:Century; font-size: 15">
+	<center><h3>LANGUAGE OF POETRY</h3></center> 
+	<p align="justify">Language poetry emphasizes the reader's role in bringing meaning out of a work.</p>
+	<p align="justify">Certain aspects of the writing of language poets became strongly associated with the members of this group: 
+	<p align="justify"><b>writing that challenged the "natural" presence of a speaker behind the text; </b></p>
+	<p align="justify"><b>writing that emphasized disjunction</b> and <b>the materiality of the signifier; </b>
+	and <b>prose poetry</b>, especially in longer forms than had previously been favored by English-language writers, 
+	as well as	other non-traditional and usually non-narrative forms.</p>
+	
+	</div>
+	
+	<div style="margin: 20px; width:89%;height:80%; font-family:Century; font-size: 15">
+	<h3>FIGURE OF SPEECH</h3>
+	<p align="justify">A figure of speech is the use of a word or a phrase, which transcends its literal interpretation.</p>
+	<p align="justify">It can be a special repetition, arrangement or omission of words with literal meaning, or aphrase
+	with a specialized meaning not based on the literal meaning of the words in it,
+	as in <b>idiom,</b> <b>metaphor,</b> <b>simile,</b> <b>hyperbole,</b> <b>personification,</b> or <b>synecdoche.</b> </p>
+	<p align="justify">Figures of speech often provide <b>emphasis, freshness of expression,</b> or <b>clarity.</b></p>
+	</div>
+	
+	<div style="margin: 20px; width:89%;height:80%; font-family:Century; font-size: 15">
+	<h3>TYPES OF POETRY</h3>
+	<center><h4>1. Lyric Poetry</h4></center>
+	<p align="justify">A <b>Lyric poem</b> is a comparatively short, non-narrative poem in which a single speaker presents a state of mind or an emotional state. </p>
+	<p align="justify"><b> Subcategories of the lyric are: </b></p>
+	<p align="justify"><b>Elegy</b> is a formal lament for the death of a particular person. </p>
+	<p align="justify"><b>Ode</b> is a long lyric poem with a serious subject written in an elevated style.  </p>
+	<p align="justify"><b>Sonnet</b> was originally a love poem which dealt with the lovers sufferings and hopes.  </p>
+	<p align="justify"><b>Dramatic Monologue</b> a speaker, who is explicitly someone other than the author, makes a speech to a silent auditor in a specific situation and at a critical moment. </p>
+	<p align="justify"><b>Occasional Poetry</b> is written for a specific occasion. </p>
+	
+	<center><h4>2. Narrative Poetry</h4></center>
+	<p align="justify"><b>Narrative poetry </b> gives a verbal representation, in verse, of a sequence of connected events, it propels characters through a plot.</p>
+	<p align="justify"><b>Subcategories of the narrative poetry: </b></p>
+	<p align="justify"><b>Epics</b> usually operate on a large scale, both in length and topic. </p>
+	<p align="justify"><b>Mock-epic </b> makes use of epic conventions, like the elevated style and the assumption that the topic is of great importance, to deal with completely insignificant occurrences.</p>
+	<p align="justify"><b>Ballad</b> is a song, originally transmitted orally, which tells a story. </p>
+	
+	<center><h4>3. Descriptive and Didactic Poetry</h4></center>
+	<p align="justify"><b>Descriptive and Didactic Poetry</b> Both lyric and narrative poetry can contain lengthy and detailed descriptions <b>(descriptive poetry)</b> or scenes in direct speech <b>(dramatic poetry)</b>.</p>
+	<p align="justify"><b>Subcategories of the narrative poetry: </b></p>
+	<p align="justify"><b>Epics</b> usually operate on a large scale, both in length and topic. </p>
+	<p align="justify"><b>Mock-epic </b> makes use of epic conventions, like the elevated style and the assumption that the topic is of great importance, to deal with completely insignificant occurrences.</p>
+	<p align="justify"><b>Ballad</b> is a song, originally transmitted orally, which tells a story. </p>
+	
+	</div>
+	
+
+		<div style=" margin: 5%; width: 90%; height: 90%">
+	<a href="#poetry" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-back ui-btn-a ui-mini">BACK</a>
+	</div>
+</div>
+</div>
+
+
+<!--(SHORT STORY) ELEMENTS OF SHORT STORY-->
+<div data-role="page" id="elements" data-theme="d" data-position="fixed" style="background-image:url('images/bg.jpg'); background-size:cover; background-repeat:no-repeat;">
+<div data-role="header" data-theme="a"  align="center" data-position="relative" style="height:15%;">
+ <img src="images/header.png" height="120%" width="90%" />
+</div>
+
+	<div style="margin: 20px; width:89%;height:80%; font-family:Century; font-size: 15">
+	<center><h3>ELEMENTS OF SHORT STORY</h3></center> 
+	<center><h4>Character</h4></center>
+	<p align="justify">A character is a person, or sometimes even an animal, who takes part in the action of a short story or other literary work.</p>
+	
+	<center><h4>Setting</h4></center>
+	<p align="justify">The setting of a short story is the time and place in which it happens. Authors often use descriptions of landscape, scenery, buildings, 
+	seasons or weather to provide a strong sense of setting.</p>
+	
+	<center><h4>Plot</h4></center>
+	<p align="justify">A plot is a series of events and character actions that relate to the central conflict.</p>
+	
+	<center><h4>Conflict</h4></center>
+	<p align="justify">The conflict is a struggle between two people or things in a short story. The main character is usually on one side of the central conflict.</p>
+	
+	<center><h4>Theme</h4></center>
+	<p align="justify">The theme is the central idea or belief in a short story.</p>
+	</div>
+
+		<div style=" margin: 5%; width: 90%; height: 90%">
+	<a href="#shortstory" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-back ui-btn-a ui-mini">BACK</a>
+	</div>
+</div>
+
+<!-- (SHORT STORY) TYPES OF SHORT STORY-->
+<div data-role="page" id="kinds" data-theme="d" data-position="fixed" style="background-image:url('images/bg.jpg'); background-size:cover; background-repeat:no-repeat;">
+<div data-role="header" data-theme="a"  align="center" data-position="relative" style="height:15%;">
+ <img src="images/header.png" height="120%" width="90%" />
+</div>
+
+	<div style="margin: 20px; width:89%;height:80%; font-family:Century; font-size: 15">
+	<center><h3>TYPES OF SHORT STORY</h3></center> 
+	<center><h4>EPICAL STORY</h4></center>
+	<p align="justify">In realist short fiction, brevity is commonly 'wired-in' through the withholding of a part of the narrative - a hidden, suspended element, 
+	whose absence is ultimately unsustainable (it's only a matter of time before it drops into view). </p>
+	<p align="justify">In both traditional and modernist stories the revelation occurs at the end (or in some cases just after the end, in the reader's realisation), 
+	and re-illuminates the characters and events that preceded it.</p>
+	<p align="justify"><b>EXAMPLES:</b></p>
+	<p align="justify">Ambrose Bierce's <b>'An Occurance at Owl Creek Bridge'.</b> </p>
+	<p align="justify"> James Joyce's 'Araby' <b>(Dubliners, 1903).</b> </p>
+	
+	<br/>
+	<center><h4>LYRICAL STORY</h4></center>
+	<p align="justify">Lyrical story is distinguished by its emphasis on a central recurring image or symbol, around which the narrative revolves, 
+	and from which it acquires an open and flexible meaning.  </p>
+	<p align="justify">Lyrical stories generally eschew complete closure - the atmosphere is established early, 
+	sustained throughout and merely rings louder in its absence after the close. </p>
+	<p align="justify"><b>EXAMPLES:</b></p>
+	<p align="justify"> Katherine Mansfield's <b>The Fly (1922).</b> </p>
+	<p align="justify"> Katherine Mansfield's <b>'Bliss' (1922).</b> </p>
+	<p align="justify">David Constantine's <b>'The Loss' Raymond Carver's 'Why Don't You Dance?'</b> </p>
+	<p align="justify">Martyn Bedford's<b>'Letters Home' in The Book of Leeds (Comma, 2007)</b> </p>
+	
+	<br/>
+	<center><h4>ARTIFICE STORY</h4></center>
+	<p align="justify"> A third type of short story should be considered, for deriving its 'surprise' not from the arrival of any revelation, 
+	or the escalation of any image, but from the intertwining of two seemingly incompatable ingredients: 
+	be these two incompatible story-lines, perspectives or indeed realities. </p>
+	
+	</div>
+
+		<div style=" margin: 5%; width: 90%; height: 90%">
+	<a href="#shortstory" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-back ui-btn-a ui-mini">BACK</a>
+	</div>
+</div>
+
+<!-- (ESSAY) FORM AND KINDS OF ESSAY-->
+<div data-role="page" id="formandkindsofessay" data-theme="d" data-position="fixed" style="background-image:url('images/bg.jpg'); background-size:cover; background-repeat:no-repeat;">
+<div data-role="header" data-theme="a"  align="center" data-position="relative" style="height:15%;">
+ <img src="images/header.png" height="120%" width="90%" />
+</div>
+
+	<div style="margin: 20px; width:89%;height:80%; font-family:Century; font-size: 15">
+	<center><h3>FORMS AND KINDS OF ESSAY</h3></center>
+	<center><h4>DEFINITION ESSAY</h4></center>	
+	<p align="justify">When you are writing a definition essay, you take a term or an idea and write about what it is. 
+	Often, definitions are combined with classification or other forms of organization in the essay. </p>
+	<!-- <p align="justify">You need to give a careful definition of the key term before going on to discuss different types or examples. </p>
+	<p align="justify"><b>Example question:</b></p>
+	<p align="justify">Write an essay defining energy resources and discuss the different types.</p>
+	<p align="justify"><b>Introduction:</b></p>
+	<p align="justify">Define the key term energy resources.</p>
+	<p align="justify"><b>Supporting paragraphs:</b></p>
+	<p align="justify">1. Define one type of energy resources: renewable resources.</p>
+	<p align="justify">2. Define another type of energy resources: non-renewable resources.</p>
+	<p align="justify"><b>Summary paragraph:</b></p>
+	<p align="justify">Summarize energy resources.</p> -->
+	<center><h4>CLASSIFICATION ESSAY</h4></center>	
+	<p align="justify">In a classification essay, you separate things or ideas into specific categories and discuss each of them.
+	You organize the essay by defining each classification and by giving examples of each type. </p>
+	<center><h4>DESCRIPTION ESSAY</h4></center>	
+	<p align="justify">In a description essay, you write about what a person, place, or thing is like. You organize the essay by describing different parts or aspects of the main subject. </p>
+	<center><h4>COMPARE AND CONTRAST ESSAY</h4></center>	
+	<p align="justify">In a compare and contrast essay, you write about the similarities and differences between two or more people, places, or things. </p>
+	<p align="justify">You can organize the essay by writing about one subject first and then comparing it with the second subject. </p>
+	<p align="justify">A more effective way is to organize the essay by comparing each subject by category.  </p>
+	<center><h4>SEQUENCE ESSAY</h4></center>	
+	<p align="justify">In a sequence essay, you are writing to describe a series of events or a process in some sort of order. </p>
+	<p align="justify">Usually, this order is based on time. </p>
+	<p align="justify">You organize the essay by writing about each step of the process in the order it occurred. </p>
+	<center><h4>CHOICE ESSAY</h4></center>	
+	<p align="justify">In a choice essay, you need to choose which object, idea, or action that you prefer. </p>
+	<p align="justify">You organize the essay by describing each option and then giving your opinion. </p>
+	<center><h4>EXPLANATION ESSAY</h4></center>	
+	<p align="justify">In an explanation essay, you explain how or why something happens or has happened.</p>
+	<p align="justify">You need to explain different causes and effects.  </p>
+	<p align="justify">You should organize the essay by explaining each individual cause or effect.  </p>
+	<center><h4>EVALUATION ESSAY</h4></center>	
+	<p align="justify">In an evaluation essay, you make judgments about people, ideas, and possible actions. </p>
+	<p align="justify">You make your evaluation based on certain criteria that you develop. </p>
+	<p align="justify">Organize the essay by discussing the criteria you used to make your judgment.   </p>
+	
+	</div>
+
+		<div style=" margin: 5%; width: 90%; height: 90%">
+	<a href="#essay" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-back ui-btn-a ui-mini">BACK</a>
+	</div>
+</div>
+
+<!-- (NOVEL)FORM AND KINDS OF NOVEL-->
+<div data-role="page" id="formandkindsofnovel" data-theme="d" data-position="fixed" style="background-image:url('images/bg.jpg'); background-size:cover; background-repeat:no-repeat;">
+<div data-role="header" data-theme="a"  align="center" data-position="relative" style="height:15%;">
+ <img src="images/header.png" height="120%" width="90%" />
+</div>
+
+	<div style="margin: 20px; width:89%;height:80%; font-family:Century; font-size: 15">
+	<center><h3>FORM AND KINDS OF NOVEL</h3></center> 
+	<center><h3>Settings</h3></center> 
+	<p align="justify">Where and when the story takes place. </p>
+	<center><h3>Characters </h3></center> 
+	<p align="justify">Who is there to talk about or who is talking ( main and minor characters ).</p>
+	<p align="justify">Could be protagonist (hero ) or antagonist (evil ) .</p>
+	<p align="justify">How they look like in appearance & in behaviour or personality. </p>
+	<center><h3>Plot  </h3></center> 
+	<p align="justify">What is happening. </p>
+	<p align="justify">This includes the Theme. the author's message, or what he/she wants to say about life or people .</p>
+	<p align="justify">Also the Climax :it is the rising point of all actions. </p>
+	<p align="justify">the Conflict: the struggle against odds or obstacles preventing characters from reaching the goal .  </p>
+	<center><h3>Conclusion the ending of the story</h3></center> 
+	<p align="justify">Some authors choose to leave the ending open and without being solved for more enticement .  </p>
+	
+	
+	</div>
+
+		<div style=" margin: 5%; width: 90%; height: 90%">
+	<a href="#novel" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-back ui-btn-a ui-mini">BACK</a>
+	</div>
+</div>
+
+<!-- (NOVEL)SCHOOL OF THOUGHT-->
+<div data-role="page" id="schoolofthought" data-theme="d" data-position="fixed" style="background-image:url('images/bg.jpg'); background-size:cover; background-repeat:no-repeat;">
+<div data-role="header" data-theme="a"  align="center" data-position="relative" style="height:15%;">
+ <img src="images/header.png" height="120%" width="90%" />
+</div>
+
+	<div style="margin: 20px; width:89%;height:80%; font-family:Century; font-size: 15">
+	<h3>SCHOOL OF THOUGHT</h3>
+	<center><h3>Romanticism</h3></center> 
+	<p align="justify">(also the Romantic era or the Romantic period) was an artistic, literary, 
+	and intellectual movement that originated in Europe toward the end of the 18th century and in most areas 
+	was at its peak in the approximate period from 1800 to 1850. </p>
+	
+	<center><h3>Realism</h3></center> 
+	<p align="justify">(or naturalism) in the arts is the attempt to represent subject matter truthfully,
+	without artificiality and avoiding artistic conventions, implausible, exotic and supernatural elements.</p>
+	
+	<center><h3>Naturalism</h3></center> 
+	<p align="justify">is "the idea or belief that only laws of nature (physical law) (as opposed to supernatural or spiritual) and forces operate in the world; 
+	the idea or belief that nothing exists beyond the natural world.</p>
+	
+	<center><h3>Impressionism</h3></center> 
+	<p align="justify">is a 19th-century art movement that originated with a group of Paris-based artists. </p>
+	<p align="justify">Their independent exhibitionsbrought them to prominence during the 1870s and 1880s, 
+	in spite of harsh opposition from the conventional art community in France.  </p>
+	
+	<center><h3>Expressionism</h3></center> 
+	<p align="justify">was a modernist movement, initially in poetry and painting, originating in Germany at the beginning of the 20th century. Its typical trait is to present the world solely from a subjective perspective, 
+	distorting it radically for emotional effect in order to evoke moods or ideas.</p>
+	</div>
+
+		<div style=" margin: 5%; width: 90%; height: 90%">
+	<a href="#novel" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-back ui-btn-a ui-mini">BACK</a>
+	</div>
+</div>
+
+<!-- (NOVEL)Noli-->
+<div data-role="page" id="noli" data-theme="d" data-position="fixed" style="background-image:url('images/bg.jpg'); background-size:cover; background-repeat:no-repeat;">
+<div data-role="header" data-theme="a"  align="center" data-position="relative" style="height:15%;">
+ <img src="images/header.png" height="120%" width="90%" />
+</div>
+
+	<div style="margin: 20px; width:89%;height:80%; font-family:Century; font-size: 15">
+	<center><h3>Summary of Noli Me Tangere</h3></center> 
+	
+	<p align="justify">The first of two canonical 19th-century novels, 
+	Noli Me Tangere revolves around Crisostomo Ibarra who, after a seven-year stay in Europe to study, 
+	comes home to his town of San Diego, brimming with the desire to contribute to the development of the townspeople.  
+	More specifically, as a reformist, he aims to make education accessible to more people.  
+	His idealism, however, cannot bear fruit because of insidious forces bent on destroying him.  
+	Ibarra learns that his father, Don Rafael, had been embroiled in a conflict with Padre Damaso, who eventually causes his humiliation and death. 
+	It is not only political power that the friar wields; he has also used power to seduce the mother of Maria Clara, Ibarra' s sweetheart.  
+	Ibarra has another enemy in the person of Padre Salvi, who lusts after Maria Clara. 
+	It is also Padre Salvi who almost causes Ibarra ' s death at the groundbreaking ceremonies for the school. 
+	Things come to a head when Ibarra is implicated in a failed uprising instigated by Padre Salvi.  
+	The young man is imprisoned but is eventually rescued by Elias, whose life Ibarra has saved in the past.  
+	As the novel ends, the thoroughly disillusioned Ibarra sees a bleak future. </p>
+	
+	
+	
+	</div>
+
+		<div style=" margin: 5%; width: 90%; height: 90%">
+	<a href="#novel" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-back ui-btn-a ui-mini">BACK</a>
+	</div>
+</div>
+
+<!-- (NOVEL)Fili-->
+<div data-role="page" id="fili" data-theme="d" data-position="fixed" style="background-image:url('images/bg.jpg'); background-size:cover; background-repeat:no-repeat;">
+<div data-role="header" data-theme="a"  align="center" data-position="relative" style="height:15%;">
+ <img src="images/header.png" height="120%" width="90%" />
+</div>
+
+	<div style="margin: 20px; width:89%;height:80%; font-family:Century; font-size: 15">
+	<center><h3>Summary of El Filibusterismo</h3></center> 
+	
+	<p align="justify">The sequel to Noli Me Tangere with its unarguably utopian vision, 
+	el Filibusterismo offers a much bleaker picture of the last decades of the nineteenth century.  
+	Crisostomo Ibarra, the reformist hero of the earlier novel, 
+	has come back to the Philippines as the enigmatic stranger named Simoun, a rich jeweller.  
+	Driven by hatred and a fierce desire to avenge his sufferings, and to rescue Maria Clara from the nunnery where she has fled, 
+	Simoun embarks on a crusade the goal of which is to corrupt and thus weaken various institutions that would eventually lead to a bloody revolution.  
+	He schemes and plans systematically and plots with various characters, including Basilio, to bring about the downfall of the government.  
+	The first plot fails, as does the second one.  Simoun, carrying his huge stash of jewelry, flees to the mountain retreat of Padre Florentino, 
+	who absolves the dying man from his sins.  The novel ends as the priest throws Simoun's treasures into the sea with the hope that they could be 
+	retrieved and used only for the good of the people. </p>
+	
+	
+	
+	</div>
+
+		<div style=" margin: 5%; width: 90%; height: 90%">
+	<a href="#novel" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-back ui-btn-a ui-mini">BACK</a>
+	</div>
+</div>
+
+
+<!-- (DRAMMA)KINDS AND TYPES OF DRAMA-->
+<div data-role="page" id="kindsandtypesofdrama" data-theme="d" data-position="fixed" style="background-image:url('images/bg.jpg'); background-size:cover; background-repeat:no-repeat;">
+<div data-role="header" data-theme="a"  align="center" data-position="relative" style="height:15%;">
+ <img src="images/header.png" height="120%" width="90%" />
+</div>
+
+	<div style="margin: 20px; width:89%;height:80%; font-family:Century; font-size: 15">
+	<h3>KINDS AND TYPES OF DRAMA</h3>
+	<center><h3>Tragedy</h3></center> 
+	<p align="justify">Tragedy is one of the oldest forms of drama; however, its meaning has changed since the earliest days of staged plays. </p>
+	
+	<center><h3>Farce</h3></center> 
+	<p align="justify">Farce is a sub-category of comedy, characterized by greatly exaggerated characters and situations. Characters tend to be one-dimensional and often follow stereotypical behavior.</p>
+	
+	<center><h3>Melodrama</h3></center> 
+	<p align="justify">Melodrama is another type of exaggerated drama. As in farce, the characters tend to be simplified and one-dimensional.</p>
+	
+	<center><h3>Musical</h3></center> 
+	<p align="justify">In musical theater, the story is told not only through dialogue and acting but through music and dance. Musicals are often comedic, although many do involve serious subject matter.</p>
+	<p align="justify">Their independent exhibitionsbrought them to prominence during the 1870s and 1880s, 
+	in spite of harsh opposition from the conventional art community in France.  </p>
+	
+	<center><h3>Expressionism</h3></center> 
+	<p align="justify">was a modernist movement, initially in poetry and painting, originating in Germany at the beginning of the 20th century. Its typical trait is to present the world solely from a subjective perspective, 
+	distorting it radically for emotional effect in order to evoke moods or ideas.</p>
+	</div>
+	
+
+		<div style=" margin: 5%; width: 90%; height: 90%">
+	<a href="#drama" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-back ui-btn-a ui-mini">BACK</a>
+	</div>
+</div>
+</div>
+
+
+<!-- GAME -->
+<div data-role="page" id="game" data-theme="d" data-position="fixed" style="background-image:url('images/bg.jpg'); background-size:cover; background-repeat:no-repeat;">
+<div data-role="header" data-theme="a"  align="center" data-position="relative" style="height:15%;">
+ <img src="images/header.png" height="120%" width="90%" />
+</div>
+<br/>
+<br/>
+<br/>
+	<div style=" margin: 5%; width: 90%; height: 90%">
+	<a href="#questionScience" id="btnPlay" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-heart ui-btn-a ui-mini">PLAY</a>
+	</div>
+
+<br/>
+<br/>
+
+	<div style=" margin: 5%; width: 90%; height: 90%">
+	<a href="#index" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-back ui-btn-a ui-mini">BACK</a>
+	</div>
+	
+</div>
+
+<!-- PLAYGAME -->
+<div data-role="page" id="questionScience" data-theme="d" data-position="fixed" style="background-image:url('images/bg.jpg'); background-size:cover; background-repeat:no-repeat;">
+<div data-role="header" data-theme="a"  align="center" data-position="relative" style="height:15%;">
+ <img src="images/header.png" height="120%" width="90%" />
+</div>
+
+	<div data-role="content" data-theme="a" style="background-image:url('images/bg.jpg')">
+		<div id="relative" style="color:#000066; font-family: 'Century';">
+		<center>
+		<h1 id="timer">TIME</h1>
+		<h2 id="showTimer" style="font-family: 'Century';"></h2>
+		<h1 id="score">SCORE</h1>
+		<h2 id="asd" style="margin-left: auto; margin-right: auto; font-family: 'Century';"></h2>
+		
+		<span id="count"></span>
+		
+		<h2 id="prog2"></h2>
+		<h2 id="questions"></h2>
+	</center>
+
+<a data-role="button" id="check1" class="q1" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c1"></span></a>
+<a data-role="button" id="check2" class="q1" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c2"></span></a>
+<a data-role="button" id="check3" class="q1" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c3"></span></a>
+<a data-role="button" id="check4" class="q2" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c4"></span></a>
+<a data-role="button" id="check5" class="q2" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c5"></span></a>
+<a data-role="button" id="check6" class="q2" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c6"></span></a>
+<a data-role="button" id="check7" class="q3" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c7"></span></a>
+<a data-role="button" id="check8" class="q3" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c8"></span></a>
+<a data-role="button" id="check9" class="q3" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c9"></span></a>
+<a data-role="button" id="check15" class="q4" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c15"></span></a>
+<a data-role="button" id="check11" class="q4" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c11"></span></a>
+<a data-role="button" id="check12" class="q4" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c12"></span></a>
+<a data-role="button" id="check13" class="q5" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c13"></span></a>
+<a data-role="button" id="check14" class="q5" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c14"></span></a>
+<a data-role="button" id="check15" class="q5" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c15"></span></a>
+<a data-role="button" id="check16" class="q6" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c16"></span></a>
+<a data-role="button" id="check17" class="q6" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c17"></span></a>
+<a data-role="button" id="check18" class="q6" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c18"></span></a>
+<a data-role="button" id="check19" class="q7" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c19"></span></a>
+<a data-role="button" id="check20" class="q7" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c20"></span></a>
+<a data-role="button" id="check21" class="q7" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c21"></span></a>
+<a data-role="button" id="check22" class="q8" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c22"></span></a>
+<a data-role="button" id="check23" class="q8" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c23"></span></a>
+<a data-role="button" id="check24" class="q8" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c24"></span></a>
+<a data-role="button" id="check25" class="q9" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c25"></span></a>
+<a data-role="button" id="check26" class="q9" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c26"></span></a>
+<a data-role="button" id="check27" class="q9" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c27"></span></a>
+<a data-role="button" id="check28" class="q15" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c28"></span></a>
+<a data-role="button" id="check29" class="q15" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c29"></span></a>
+<a data-role="button" id="check30" class="q15" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c30"></span></a>
+<a data-role="button" id="check31" class="q11" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c31"></span></a>
+<a data-role="button" id="check32" class="q11" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c32"></span></a>
+<a data-role="button" id="check33" class="q11" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c33"></span></a>
+<a data-role="button" id="check34" class="q12" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c34"></span></a>
+<a data-role="button" id="check35" class="q12" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c35"></span></a>
+<a data-role="button" id="check36" class="q13" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c36"></span></a>
+<a data-role="button" id="check37" class="q13" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c37"></span></a>
+<a data-role="button" id="check38" class="q13" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c38"></span></a>
+<a data-role="button" id="check39" class="q14" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c39"></span></a>
+<a data-role="button" id="check40" class="q14" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c40"></span></a>
+<a data-role="button" id="check41" class="q14" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c41"></span></a>
+<a data-role="button" id="check42" class="q15" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c42"></span></a>
+<a data-role="button" id="check43" class="q15" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c43"></span></a>
+<a data-role="button" id="check44" class="q15" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c44"></span></a>
+<a data-role="button" id="check45" class="q16" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c45"></span></a>
+<a data-role="button" id="check46" class="q16" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c46"></span></a>
+<a data-role="button" id="check47" class="q16" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c47"></span></a>
+<a data-role="button" id="check48" class="q17" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c48"></span></a>
+<a data-role="button" id="check49" class="q17" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c49"></span></a>
+<a data-role="button" id="check50" class="q17" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c50"></span></a>
+<a data-role="button" id="check51" class="q18" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c51"></span></a>
+<a data-role="button" id="check52" class="q18" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c52"></span></a>
+<a data-role="button" id="check53" class="q18" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c53"></span></a>
+<a data-role="button" id="check54" class="q19" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c54"></span></a>
+<a data-role="button" id="check55" class="q19" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c55"></span></a>
+<a data-role="button" id="check56" class="q19" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c56"></span></a>
+<a data-role="button" id="check57" class="q20" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c57"></span></a>
+<a data-role="button" id="check58" class="q20" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c58"></span></a>
+<a data-role="button" id="check59" class="q20" style="display:none; font-family: 'Century'; background-color:#329aeb;"><span id="c59"></span></a>
+
+
+<button id="splice" style="display:none;" onClick="splice()">next</button>
+</div>
+</div>
+<div data-role="footer" data-position="fixed">		
+
+</div>
+</div>
+
+<!-- save online dialog-->
+
+<div data-role="page" data-theme="a" id="saveDialog" style="background-image:url('images/bg.jpg')">
+<div data-role="header" data-theme="a"  align="center" data-position="relative" style="height:15%;">
+ <img src="images/header.png" height="120%" width="90%" />
+</div>
+	<img id="result"/>
+		<div data-role="content">
+		<div id="relative2" style="color:#000066;">
+		<center><h1 id="tryAgain" style="font-family: 'Centurty'"></h1></center>
+		<form id="savedata" action="javascript:saveOnline();">
+		<center>
+		<h2 style="font-size:30px; font-family: 'Century';">Your Last Score : </h2><input type="text" id="lastscore" disabled style="font-size:30px; text"/>
+		<h2 style="font-size:30px; font-family: 'Century';">Your New Score : </h2><input type="text" id="score" name="score" style="display:none;"/>
+		<h1 id="score2" style="font-size:30px;"></h1>
+		<input type="text" id="username" name="username" style="display:none;">
+		</center>
+		</form>
+		
+		
+		<a href="#game" class="ui-shadow ui-btn ui-btn-icon-left ui-icon-back ui-btn-a ui-mini">BACK</a>
+		
+		</div>
+		</div>
+</div>
+
+<script>
+	$("#playAgain").click(function(){
+		location.href="#home";
+		location.reload();
+		var score=window.localStorage.getItem("score");
+		var changeScore=window.localStorage.setItem("lastscore",score);
+	});
+		$("#saveScore").click(function(){
+		location.href="#home";
+		var score=window.localStorage.getItem("score");
+		window.localStorage.setItem("lastscore",score);
+	});
+
+//save online
+function saveOnline(){
+
+var form = $("#savedata");
+         				$.getJSON("phpfiles/savescore.php?callback=?", form.serialize(),function(data)
+         				{
+						alert("Success! Your score is saved.")
+						location.href="home.html";
+						var score=window.localStorage.getItem("score");
+						window.localStorage.setItem("lastscore",score);
+         				}).fail(function(data){
+         				alert("Failed to Save");
+         				});
+}
+
+	// leaderboard get onLine
+	function loadAjax(){
+
+		var xmlhttp;
+		if(window.XMLHttpRequest){
+			xmlhttp = new XMLHttpRequest();
+		}else{
+			xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+		}
+		xmlhttp.onreadystatechange=function(){
+			if(xmlhttp.readyState==4 && xmlhttp.status==200){
+				document.getElementById("inserthere").innerHTML=xmlhttp.responseText;
+		}}
+	xmlhttp.open("GET","phpfiles/leaderboard.php", true);
+		xmlhttp.send();
+	}
+	
+$("#menu").click(function(){
+$("#logout").slideToggle(120).click(function(){
+localStorage.removeItem("datauser");
+location.href="index.html";
+});
+});
+
+$("#back").click(function(){
+location.href="#home";
+});
+
+$("#quit").click(function(){
+location.href="home.html";
+});
+
+$("#btnPlay").click(function(){
+splice();
+});
+
+//questions
+var qqq = ["q1", "q2","q3","q4","q5","q6","q7","q8","q9","q15","q11","q12","q13","q14","q15","q16","q17","q18","q19","q20"];
+var score=0;
+function splice(){
+document.getElementById("asd").innerHTML=score;
+var rand=Math.floor((Math.random() * 4));
+setTimeout(function(){
+var a=qqq.splice((Math.random() * qqq.length),1);
+if(a=="q1"){
+$(".q1").show();
+document.getElementById("questions").innerHTML="Is a tool to record historical events as well as knowledge.?";
+$("#c1").text("Literature");
+$("#c2").text("Poetry");
+$("#c3").text("Essay");
+$("#check1").click(function(){
+clearInterval(time);
+score=score+1;
+splice();
+$(".q1").hide();
+});
+$("#check2").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q1").hide();
+});
+$("#check3").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q1").hide();
+});
+var timer=15;
+var time=setInterval(function () {
+timer=timer-1;
+$("#showTimer").html(timer);
+if(timer==0){
+alert("Sorry! Your time is up.");
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+}
+}, 1200);
+
+}else if(a=="q2"){
+$(".q2").show();
+document.getElementById("questions").innerHTML="Is a form of literature that uses aesthetic and rhythmic.?";
+$("#c4").text("Novel");
+$("#c5").text("Essay");
+$("#c6").text("Poetry");
+$("#check4").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q2").hide();
+});
+$("#check5").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q2").hide();
+});
+$("#check6").click(function(){
+clearInterval(time);
+score=score+1;
+splice();
+$(".q2").hide();
+});
+var timer=15;
+var time=setInterval(function () {
+timer=timer-1;
+$("#showTimer").html(timer);
+if(timer==0){
+alert("Sorry! Your time is up.");
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+}
+}, 1200);
+
+}else if(a=="q3"){
+$(".q3").show();
+document.getElementById("questions").innerHTML="Emphasizes the reader's role in bringing meaning out of a work?";
+$("#c7").text("Lyric Poetry");
+$("#c8").text("Language Poetry");
+$("#c9").text("Narrative Poetry");
+$("#check8").click(function(){
+clearInterval(time);
+score=score+1;
+splice();
+$(".q3").hide();
+});
+$("#check7").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q3").hide();
+});
+$("#check9").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q3").hide();
+});
+var timer=15;
+var time=setInterval(function () {
+timer=timer-1;
+$("#showTimer").html(timer);
+if(timer==0){
+alert("Sorry! Your time is up.");
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+}
+}, 1200);
+
+}else if(a=="q4"){
+$(".q4").show();
+document.getElementById("questions").innerHTML="Is a comparatively short, non-narrative poem?";
+$("#c15").text("Epics");
+$("#c11").text("Poem");
+$("#c12").text("Lyric poem");
+$("#check15").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q4").hide();
+});
+$("#check11").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q4").hide();
+});
+$("#check12").click(function(){
+clearInterval(time);
+score=score+1;
+splice();
+$(".q4").hide();
+});
+var timer=15;
+var time=setInterval(function () {
+timer=timer-1;
+$("#showTimer").html(timer);
+if(timer==0){
+alert("Sorry! Your time is up.");
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+}
+}, 1200);
+
+}else if(a=="q5"){
+$(".q5").show();
+document.getElementById("questions").innerHTML="Gives a verbal representation, in verse, of a sequence of connected events?";
+$("#c13").text("Narrative poetry");
+$("#c14").text("Descriptive and Didactic Poetry");
+$("#c15").text("Lyric Poetry");
+$("#check13").click(function(){
+clearInterval(time);
+score=score+1;
+splice();
+$(".q5").hide();
+});
+$("#check14").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q5").hide();
+});
+$("#check15").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q5").hide();
+});
+var timer=15;
+var time=setInterval(function () {
+timer=timer-1;
+$("#showTimer").html(timer);
+if(timer==0){
+alert("Sorry! Your time is up.");
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+}
+}, 1200);
+
+}else if(a=="q6"){
+$(".q6").show();
+document.getElementById("questions").innerHTML="Is a brief work of literature, usually written in narrative prose?";
+$("#c16").text("Dramma");
+$("#c17").text("Short Story");
+$("#c18").text("Novel");
+$("#check16").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q6").hide();
+});
+$("#check18").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q6").hide();
+});
+$("#check17").click(function(){
+clearInterval(time);
+score=score+1;
+splice();
+$(".q6").hide();
+});
+var timer=15;
+var time=setInterval(function () {
+timer=timer-1;
+$("#showTimer").html(timer);
+if(timer==0){
+alert("Sorry! Your time is up.");
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+}
+}, 1200);}
+
+else if(a=="q7"){
+$(".q7").show();
+document.getElementById("questions").innerHTML="In realist short fiction, brevity is commonly 'wired-in' through the withholding of a part of the narrative";
+$("#c19").text("Artifice Story");
+$("#c20").text("Lyrical Story");
+$("#c21").text("Epical Story");
+$("#check21").click(function(){
+score=score+1;
+clearInterval(time);
+splice();
+$(".q7").hide();
+});
+$("#check19").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q7").hide();
+});
+$("#check20").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q7").hide();
+});
+var timer=15;
+var time=setInterval(function () {
+timer=timer-1;
+$("#showTimer").html(timer);
+if(timer==0){
+alert("Sorry! Your time is up.");
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+}
+}, 1200);
+
+}else if(a=="q8"){
+$(".q8").show();
+document.getElementById("questions").innerHTML="Is a person, or sometimes even an animal?";
+$("#c22").text("Character");
+$("#c23").text("Setting");
+$("#c24").text("Plot");
+$("#check23").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q8").hide();
+});
+$("#check24").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q8").hide();
+});
+$("#check22").click(function(){
+clearInterval(time);
+score=score+1;
+splice();
+$(".q8").hide();
+});
+var timer=15;
+var time=setInterval(function () {
+timer=timer-1;
+$("#showTimer").html(timer);
+if(timer==0){
+alert("Sorry! Your time is up.");
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+}
+}, 1200);
+
+}else if(a=="q9"){
+$(".q9").show();
+document.getElementById("questions").innerHTML="Is a struggle between two people or things in a short story?";
+$("#c25").text("Theme");
+$("#c26").text("Conflict");
+$("#c27").text("Plot");
+$("#check25").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q9").hide();
+});
+$("#check27").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q9").hide();
+});
+$("#check26").click(function(){
+clearInterval(time);
+score=score+1;
+splice();
+$(".q9").hide();
+});
+var timer=15;
+var time=setInterval(function () {
+timer=timer-1;
+$("#showTimer").html(timer);
+if(timer==0){
+alert("Sorry! Your time is up.");
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+}
+}, 1200);
+
+}else if(a=="q15"){
+$(".q15").show();
+document.getElementById("questions").innerHTML="Are generally scholarly pieces of writing written from an author's personal point of view?";
+$("#c28").text("Drama");
+$("#c29").text("Essays");
+$("#c30").text("Novel");
+$("#check29").click(function(){
+clearInterval(time);
+score=score+1;
+splice();
+$(".q15").hide();
+});
+$("#check28").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q15").hide();
+});
+$("#check30").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q15").hide();
+});
+var timer=15;
+var time=setInterval(function () {
+timer=timer-1;
+$("#showTimer").html(timer);
+if(timer==0){
+alert("Sorry! Your time is up.");
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+}
+}, 1200);
+
+}else if(a=="q11"){
+$(".q11").show();
+document.getElementById("questions").innerHTML="You take a term or an idea and write about what it is?";
+$("#c31").text("Definition Essay");
+$("#c32").text("Classification Essay");
+$("#c33").text("Description Essay");
+$("#check31").click(function(){
+clearInterval(time);
+score=score+1;
+splice();
+$(".q11").hide();
+});
+$("#check32").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q11").hide();
+});
+$("#check33").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q11").hide();
+});
+var timer=15;
+var time=setInterval(function () {
+timer=timer-1;
+$("#showTimer").html(timer);
+if(timer==0){
+alert("Sorry! Your time is up.");
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+}
+}, 1200);
+
+}else if(a=="q12"){
+$(".q12").show();
+document.getElementById("questions").innerHTML="Philippine literature is the literature associated with the Philippines and includes the legends of prehistory, and the colonial legacy of the Philippines.?";
+$("#c34").text("True");
+$("#c35").text("False");
+$("#check34").click(function(){
+clearInterval(time);
+score=score+1;
+splice();
+$(".q12").hide();
+});
+$("#check35").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q12").hide();
+});
+var timer=15;
+var time=setInterval(function () {
+timer=timer-1;
+$("#showTimer").html(timer);
+if(timer==0){
+alert("Sorry! Your time is up.");
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+}
+}, 1200);
+
+}else if(a=="q13"){
+$(".q13").show();
+document.getElementById("questions").innerHTML="Is distinguished by its emphasis on a central recurring image or symbol?";
+$("#c36").text("Lyrical Story");
+$("#c37").text("Artifice Story");
+$("#c38").text("Short Story");
+$("#check36").click(function(){
+clearInterval(time);
+score=score+1;
+splice();
+$(".q13").hide();
+});
+$("#check37").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q13").hide();
+});
+$("#check38").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q13").hide();
+});
+var timer=15;
+var time=setInterval(function () {
+timer=timer-1;
+$("#showTimer").html(timer);
+if(timer==0){
+alert("Sorry! Your time is up.");
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+}
+}, 1200);
+
+}else if(a=="q14"){
+$(".q14").show();
+document.getElementById("questions").innerHTML=" Are generally scholarly pieces of writing written from an author's personal point of view?";
+$("#c39").text("Drama");
+$("#c40").text("Essay");
+$("#c41").text("Novel");
+$("#check40").click(function(){
+clearInterval(time);
+score=score+1;
+splice();
+$(".q14").hide();
+});
+$("#check39").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q14").hide();
+});
+$("#check41").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q14").hide();
+});
+var timer=15;
+var time=setInterval(function () {
+timer=timer-1;
+$("#showTimer").html(timer);
+if(timer==0){
+alert("Sorry! Your time is up.");
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+}
+}, 1200);
+
+}else if(a=="q15"){
+$(".q15").show();
+document.getElementById("questions").innerHTML="You take a term or an idea and write about what it is?";
+$("#c42").text("Definition Essay");
+$("#c43").text("Classification Essay");
+$("#c44").text("Description Essay");
+$("#check42").click(function(){
+clearInterval(time);
+score=score+1;
+splice();
+$(".q15").hide();
+});
+$("#check43").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q15").hide();
+});
+$("#check44").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q15").hide();
+});
+var timer=15;
+var time=setInterval(function () {
+timer=timer-1;
+$("#showTimer").html(timer);
+if(timer==0){
+alert("Sorry! Your time is up.");
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+}
+}, 1200);
+
+}else if(a=="q16"){
+$(".q16").show();
+document.getElementById("questions").innerHTML="You are writing to describe a series of events or a process in some sort of order.?";
+$("#c45").text("Explanation Essay");
+$("#c46").text("Choice Essay");
+$("#c47").text("Sequence Essay");
+$("#check45").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q16").hide();
+});
+$("#check46").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q16").hide();
+});
+$("#check47").click(function(){
+clearInterval(time);
+score=score+1;
+splice();
+$(".q16").hide();
+});
+var timer=15;
+var time=setInterval(function () {
+timer=timer-1;
+$("#showTimer").html(timer);
+if(timer==0){
+alert("Sorry! Your time is up.");
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+}
+}, 1200);
+
+}else if(a=="q17"){
+$(".q17").show();
+document.getElementById("questions").innerHTML="Is a long narrative, normally in prose?";
+$("#c48").text("Poetry");
+$("#c49").text("Essay");
+$("#c50").text("Novel");
+$("#check48").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q17").hide();
+});
+$("#check49").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q17").hide();
+});
+$("#check50").click(function(){
+clearInterval(time);
+score=score+1;
+splice();
+$(".q17").hide();
+});
+var timer=15;
+var time=setInterval(function () {
+timer=timer-1;
+$("#showTimer").html(timer);
+if(timer==0){
+alert("Sorry! Your time is up.");
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+}
+}, 1200);
+
+}else if(a=="q18"){
+$(".q18").show();
+document.getElementById("questions").innerHTML="Was an artistic, literary, and intellectual movement ?";
+$("#c51").text("Naturalism");
+$("#c52").text("Romanticism");
+$("#c53").text("Realism");
+$("#check51").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q18").hide();
+});
+$("#check53").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q18").hide();
+});
+$("#check52").click(function(){
+clearInterval(time);
+score=score+1;
+splice();
+$(".q18").hide();
+});
+var timer=15;
+var time=setInterval(function () {
+timer=timer-1;
+$("#showTimer").html(timer);
+if(timer==0){
+alert("Sorry! Your time is up.");
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+}
+}, 1200);
+
+}else if(a=="q19"){
+$(".q19").show();
+document.getElementById("questions").innerHTML="The idea or belief that nothing exists beyond the natural world.?";
+$("#c54").text("Naturalism");
+$("#c55").text("Impressionism");
+$("#c56").text("Realism");
+$("#check55").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q19").hide();
+});
+$("#check56").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q19").hide();
+});
+$("#check54").click(function(){
+clearInterval(time);
+score=score+1;
+splice();
+$(".q19").hide();
+});
+var timer=15;
+var time=setInterval(function () {
+timer=timer-1;
+$("#showTimer").html(timer);
+if(timer==0){
+alert("Sorry! Your time is up.");
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+}
+}, 1200);
+
+}else if(a=="q20"){
+$(".q20").show();
+document.getElementById("questions").innerHTML="Is the specific mode of fiction represented in performance.?";
+$("#c57").text("Novel");
+$("#c58").text("Drama");
+$("#c59").text("Essay");
+$("#check57").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q20").hide();
+});
+$("#check59").click(function(){
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+$(".q20").hide();
+});
+$("#check58").click(function(){
+clearInterval(time);
+score=score+1;
+splice();
+$(".q20").hide();
+});
+var timer=15;
+var time=setInterval(function () {
+timer=timer-1;
+$("#showTimer").html(timer);
+if(timer==0){
+alert("Sorry! Your time is up.");
+window.localStorage.setItem("score",score);
+document.getElementById("tryAgain").innerHTML="Sorry!! The Game is Over ..  ";
+document.getElementById("score2").innerHTML= score;
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+clearInterval(time);
+}
+}, 1200);
+}else if(a=="" || qqq.length==0){
+qqq.splice(0,1);
+window.localStorage.setItem("score",score);
+var getScore=window.localStorage.getItem("score");
+document.getElementById("score").value=getScore;
+var getlastscore=window.localStorage.getItem("lastscore");
+document.getElementById("lastscore").value=getlastscore;
+var getUsername=window.localStorage.getItem("datauser");
+document.getElementById("username").value=getUsername;
+location.href="#saveDialog";
+}
+},1200);
+}
+
+</script>
+
+</body>
+</html>
